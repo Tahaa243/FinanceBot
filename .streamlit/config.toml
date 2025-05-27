@@ -1,0 +1,25 @@
+# finance_chatbot/.streamlit/config.toml
+
+[theme]
+base="light"                # Use Streamlit's light base theme
+
+primaryColor="#66BB6A"      # A pleasant light green for interactive elements (e.g., buttons, sliders if any)
+                            # You can choose a more vibrant green if desired, e.g., "#90EE90" or "#ADFF2F"
+
+backgroundColor="#FFFFFF"   # White background for the main content area
+
+secondaryBackgroundColor="#F5FFF5" # Very light green (like Honeydew or MintCream) for sidebars, widget backgrounds if any.
+                                  # Could also be a very light yellow like #FFFFF0 (Ivory) for contrast.
+
+textColor="#1A1A1A"         # Dark text (almost black) for good readability on white.
+
+font="sans serif"           # Standard sans-serif font.
+
+[ui]
+hideTopBar = true           # Optional: Hides the little bar at the very top of the app
+
+[mapbox]                    # In case you ever use maps, set a token here
+# token = "your_mapbox_token"
+
+[deprecation]
+showPyplotGlobalUse = false # Suppresses a common warning if you use matplotlib/pyplot globally

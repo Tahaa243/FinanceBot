@@ -1,0 +1,10 @@
+# finance_chatbot/requirements.txt
+
+streamlit
+google-generativeai
+Flask  # Only if you are using flask_app.py and the iframe method
+
+# Consider pinning versions for better stability in production, e.g.:
+# streamlit==1.35.0
+# google-generativeai==0.5.4
+# Flask==3.0.3
